@@ -1,0 +1,20 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "none",
+    "current_border_width": 0,
+    "floating": "user_off",
+    "geometry": {
+       "height": 673,
+       "width": 1280,
+       "x": 273,
+       "y": 68
+    },
+    "name": "Google Chrome",
+    "percent": 1,
+    "swallows": [
+       {
+         "class": "^Google\\-chrome$"
+       }
+    ],
+    "type": "con"
+}
