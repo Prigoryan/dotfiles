@@ -243,5 +243,6 @@ for_window [window_type="menu"] floating enable
 for_window [title="Preferences$"] floating enable
 for_window [title="Create or select new Steam library folder"] floating enable
 for_window [title="Friends List"] floating enable
+for_window [class="Meld"] floating enable
 
 for_window [class="plasmashell" window_type="notification"] move position 1540 970;

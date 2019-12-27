@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-export DISPLAY=:0
+DISPLAY=:0
 betterlockscreen -u $(find ~/walls/ -type f | sort -R | tail -1)
 betterlockscreen -w

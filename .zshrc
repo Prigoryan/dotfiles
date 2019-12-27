@@ -69,6 +69,7 @@ export EDITOR=nano
 alias mon=$'watch -n 1 "gpustat ; sensors | grep \'\\(temp\\|fan\\)\' ; cat /proc/cpuinfo | grep -i mhz"'
 alias y=yay
 alias rn=perl-rename
+alias pacdiff='sudo sh -c "DIFFPROG=\"meld\" pacdiff"'
 
 eval $(thefuck --alias)
 source /usr/share/nvm/init-nvm.sh
