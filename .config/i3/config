@@ -190,8 +190,8 @@ bindsym $mod+Tab move scratchpad
 bindsym $mod+ISO_Next_Group scratchpad show
 bindsym $mod+s sticky toggle
 
-for_window [class=".*"] border none
-gaps inner 15
+for_window [class=".*"] border pixel 2
+gaps inner 13
 smart_borders on
 smart_gaps on
 
@@ -202,8 +202,9 @@ exec --no-startup-id picom --use-damage &
 #exec --no-startup-id joystickwake &
 exec --no-startup-id betterlockscreen -w &
 
-exec --no-startup-id i3-msg 'workspace $ws1; append_layout ~/.i3/workspace-1.json; exec konsole; exec konsole; exec konsole; exec atom'
+exec --no-startup-id i3-msg 'workspace $ws1; append_layout ~/.i3/workspace-1-1.json; exec konsole; exec konsole'
 exec --no-startup-id i3-msg 'workspace $ws2; append_layout ~/.i3/workspace-2.json; exec google-chrome-stable --profile-directory=Default'
+exec --no-startup-id i3-msg 'workspace $ws1; append_layout ~/.i3/workspace-1-2.json; exec konsole -e zsh -is eval htop; exec atom'
 bindsym $mod+Control+w exec --no-startup-id ~/bin/worksetup.sh $ws2 $ws3 $ws9
 
 for_window [class="KvantumViewer"] floating enable

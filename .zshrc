@@ -73,3 +73,9 @@ alias pacdiff='sudo sh -c "DIFFPROG=\"meld\" pacdiff"'
 
 eval $(thefuck --alias)
 source /usr/share/nvm/init-nvm.sh
+
+if [[ $1 == eval ]]
+then
+    "$@"
+set --
+fi
