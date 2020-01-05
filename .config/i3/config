@@ -247,4 +247,4 @@ for_window [title="Friends List"] floating enable
 for_window [class="Meld"] floating enable
 for_window [instance="Dialog"] floating enable
 
-for_window [class="plasmashell" window_type="notification"] move position 1540 970;
+for_window [class="plasmashell" window_type="notification"] move position 10 10;
