@@ -220,10 +220,9 @@ for_window [class="java-lang-"] floating enable
 # and hides everythiing)
 exec --no-startup-id wmctrl -c Plasma
 for_window [title="Desktop — Plasma"] kill
-for_window [title="Desktop — Plasma"] floating enable; border none
 
 # Avoid tiling popups, dropdown windows from plasma
-for_window [class="plasmashell"] floating enable; border none
+for_window [class="plasmashell"] floating enable
 for_window [class="Plasma"] floating enable
 for_window [class="krunner"] floating enable
 for_window [class="Kmix"] floating enable
