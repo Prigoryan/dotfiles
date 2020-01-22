@@ -1,3 +1,5 @@
+plugins=(docker systemd zsh-autosuggestions zsh-completions)
+ZSH_AUTOSUGGEST_STRATEGY=(match_prev_cmd completion)
 export ZSH=/usr/share/oh-my-zsh
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 source $ZSH/oh-my-zsh.sh
