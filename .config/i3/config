@@ -197,7 +197,7 @@ smart_gaps on
 
 # bindsym $mod+Shift+x exec --no-startup-id loginctl lock-session
 
-exec --no-startup-id picom -b
+exec --no-startup-id picom -b --config /dev/null --backend glx
 #exec --no-startup-id dunst &
 #exec --no-startup-id joystickwake &
 exec --no-startup-id betterlockscreen -w &
