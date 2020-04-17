@@ -17,11 +17,11 @@
                "x": 14,
                "y": 14
             },
-            "name": "Atom",
+            "name": "Notepadqq",
             "percent": 0.851043643263757,
             "swallows": [
                {
-                  "class": "^Atom$"
+                  "class": "^Notepadqq$"
                }
             ],
             "type": "con"
