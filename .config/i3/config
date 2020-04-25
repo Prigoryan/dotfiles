@@ -198,9 +198,11 @@ smart_gaps on
 
 # bindsym $mod+Shift+x exec --no-startup-id loginctl lock-session
 
+
 exec --no-startup-id picom -b
-#exec --no-startup-id dunst &
-#exec --no-startup-id joystickwake &
+# exec --no-startup-id ~/.config/polybar/launch.sh
+# exec --no-startup-id dunst &
+# exec --no-startup-id joystickwake &
 exec --no-startup-id betterlockscreen -w &
 
 exec --no-startup-id i3-msg 'workspace $ws1; append_layout ~/.i3/workspace-1-1.json; exec konsole; exec konsole'
