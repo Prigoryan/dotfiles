@@ -213,6 +213,7 @@ bindsym $mod+Control+w exec --no-startup-id ~/bin/worksetup.sh $ws2 $ws3 $ws9
 for_window [class="KvantumViewer"] floating enable
 for_window [class="Lxappearance"] floating enable
 for_window [class="qt5ct"] floating enable
+for_window [class="Pavucontrol"] floating enable
 #for_window [class="jetbrains-"] move to workspace $ws3
 #for_window [class="Google-chrome"] move to workspace $ws2
 for_window [class="java-lang-"] floating enable
