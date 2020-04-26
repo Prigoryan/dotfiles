@@ -198,8 +198,6 @@ smart_gaps on
 
 # bindsym $mod+Shift+x exec --no-startup-id loginctl lock-session
 
-
-exec --no-startup-id picom -b
 # exec --no-startup-id ~/.config/polybar/launch.sh
 # exec --no-startup-id dunst &
 # exec --no-startup-id joystickwake &
@@ -250,3 +248,5 @@ for_window [class="Meld"] floating enable
 for_window [instance="Dialog"] floating enable
 
 for_window [class="plasmashell" window_type="notification"] no_focus
+
+exec --no-startup-id picom -b
