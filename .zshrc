@@ -68,7 +68,7 @@ i3prop() {
 
 unsetopt HIST_VERIFY
 export EDITOR=nano
-alias mon=$'watch -n 1 "gpustat ; sensors | grep \'\\(temp\\|fan\\)\' ; cat /proc/cpuinfo | grep -i mhz"'
+alias mon='watch -n 1 "gpustat ; sensors | grep -P \"(temp|fan|T)\""'
 alias y=yay
 alias rn=perl-rename
 alias pacdiff='sudo sh -c "DIFFPROG=\"meld\" pacdiff"'
