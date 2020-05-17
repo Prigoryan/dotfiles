@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
-rm -rf ~/.PyCharm*/config/eval
-rm -rf ~/.java/.userPrefs/jetbrains/pycharm
-sed -i '/evlsprt/d' ~/.PyCharm*/config/options/other.xml
-echo "reset pycharm: `date`" >> ~/log.txt
+rm -rf ~/.java/.userPrefs/jetbrains
+for product in PyCharm IntelliJIdea; do
+	rm -rf ~/.config/JetBrains/$product*/eval
+	sed -i '/evlsprt/d' ~/.config/JetBrains/$product*/options/other.xml
+	echo "reset $product: `date`" >> ~/log.txt
+done
