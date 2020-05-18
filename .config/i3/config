@@ -190,8 +190,7 @@ bindsym $mod+Tab move scratchpad
 bindsym $mod+ISO_Next_Group scratchpad show
 bindsym $mod+grave sticky toggle
 
-for_window [class=".*"] border none # pixel 2
-for_window [class=".*"] border none # pixel 2
+for_window [class=".*"] border pixel 1
 gaps inner 13
 smart_borders on
 smart_gaps on
@@ -202,6 +201,8 @@ smart_gaps on
 # exec --no-startup-id dunst &
 # exec --no-startup-id joystickwake &
 exec --no-startup-id betterlockscreen -w &
+
+for_window [class="^jetbrains-.+"][window_type=dialog] focus
 
 exec --no-startup-id i3-msg 'workspace $ws1; append_layout ~/.i3/workspace-1-1.json; exec konsole; exec konsole'
 exec --no-startup-id i3-msg 'workspace $ws2; append_layout ~/.i3/workspace-2.json; exec google-chrome-stable --profile-directory=Default'
