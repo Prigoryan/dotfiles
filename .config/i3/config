@@ -200,7 +200,8 @@ smart_gaps on
 # exec --no-startup-id ~/.config/polybar/launch.sh
 # exec --no-startup-id dunst &
 # exec --no-startup-id joystickwake &
-exec --no-startup-id betterlockscreen -w &
+# exec --no-startup-id betterlockscreen -w &
+exec --no-startup-id /usr/lib/xscreensaver/glslideshow -root -zoom 100 &
 
 for_window [class="^jetbrains-.+"][window_type=dialog] focus
 
