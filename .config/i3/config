@@ -203,7 +203,7 @@ smart_gaps on
 exec --no-startup-id betterlockscreen -w &
 # exec --no-startup-id /usr/lib/xscreensaver/glslideshow -root -zoom 100 &
 
-# for_window [class="^jetbrains-.+"][window_type=dialog] focus
+for_window [class="^jetbrains-.+"][window_type=dialog] focus
 
 exec --no-startup-id i3-msg 'workspace $ws1; append_layout ~/.i3/workspace-1-1.json; exec konsole; exec konsole'
 exec --no-startup-id i3-msg 'workspace $ws2; append_layout ~/.i3/workspace-2.json; exec google-chrome-stable --profile-directory=Default'
