@@ -225,7 +225,7 @@ for_window [class="java-lang-"] floating enable
 for_window [title="Desktop — Plasma"] move scratchpad, exec --no-startup-id ~/bin/kill-plasma-delayed.sh
 
 # Avoid tiling popups, dropdown windows from plasma
-for_window [class="plasmashell"] floating enable, border none
+for_window [class="plasmashell"] floating enable, border none, no_focus
 for_window [class="Plasma"] floating enable, border none
 for_window [class="krunner"] floating enable, border none
 for_window [class="Kmix"] floating enable, border none
