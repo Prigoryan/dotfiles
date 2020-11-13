@@ -84,3 +84,6 @@ alias y=yay
 alias rn=perl-rename
 alias pacdiff='sudo sh -c "DIFFPROG=\"meld\" pacdiff"'
 alias f=fuck
+
+export WORDCHARS='-~.'
+bindkey '^H' backward-kill-word
