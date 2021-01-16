@@ -9,7 +9,7 @@
     "nodes": [
         {
             "border": "pixel",
-            "current_border_width": 1,
+            "current_border_width": 0,
             "floating": "auto_off",
             "geometry": {
                "height": 432,
@@ -28,7 +28,7 @@
         },
         {
             "border": "pixel",
-            "current_border_width": 1,
+            "current_border_width": 0,
             "floating": "auto_off",
             "geometry": {
                "height": 432,
@@ -58,7 +58,7 @@
     "nodes": [
         {
             "border": "pixel",
-            "current_border_width": 1,
+            "current_border_width": 0,
             "floating": "auto_off",
             "geometry": {
                "height": 1026,
@@ -67,7 +67,7 @@
                "y": 14
             },
             "name": "Sublime Text 3",
-            "percent": 0.84,
+            "percent": 0.8225,
             "swallows": [
                {
                   "class": "^Subl3"
@@ -77,7 +77,7 @@
         },
         {
             "border": "pixel",
-            "current_border_width": 1,
+            "current_border_width": 0,
             "floating": "auto_off",
             "geometry": {
                "height": 432,
@@ -86,7 +86,7 @@
                "y": 0
             },
             "name": "htop — Konsole",
-            "percent": 0.16,
+            "percent": 0.1775,
             "swallows": [
                {
                  "instance": "^htopper$"

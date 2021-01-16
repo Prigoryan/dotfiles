@@ -190,7 +190,7 @@ bindsym $mod+Tab move scratchpad
 bindsym $mod+ISO_Next_Group scratchpad show
 bindsym $mod+grave sticky toggle
 
-for_window [class=".*"] border pixel 0
+for_window [class=".*"] border none # pixel 1
 gaps inner 20
 smart_borders on
 smart_gaps on
@@ -253,4 +253,4 @@ for_window [class="plasmashell" window_type="notification"] no_focus
 
 exec --no-startup-id picom -b --experimental-backends
 exec --no-startup-id pulseeffects --gapplication-service &
-exec --no-startup-id python ~/bin/i3-swallow.py
+# exec --no-startup-id python ~/bin/i3-swallow.py
