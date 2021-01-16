@@ -190,8 +190,8 @@ bindsym $mod+Tab move scratchpad
 bindsym $mod+ISO_Next_Group scratchpad show
 bindsym $mod+grave sticky toggle
 
-for_window [class=".*"] border pixel 1
-gaps inner 13
+for_window [class=".*"] border pixel 0
+gaps inner 20
 smart_borders on
 smart_gaps on
 

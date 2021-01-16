@@ -67,7 +67,7 @@
                "y": 14
             },
             "name": "Sublime Text 3",
-            "percent": 0.85,
+            "percent": 0.84,
             "swallows": [
                {
                   "class": "^Subl3"
@@ -86,7 +86,7 @@
                "y": 0
             },
             "name": "htop — Konsole",
-            "percent": 0.15,
+            "percent": 0.16,
             "swallows": [
                {
                  "instance": "^htopper$"
