@@ -12,8 +12,8 @@
             "current_border_width": 0,
             "floating": "auto_off",
             "geometry": {
-               "height": 432,
-               "width": 640,
+               "height": 496,
+               "width": 908,
                "x": 0,
                "y": 0
             },
@@ -31,8 +31,8 @@
             "current_border_width": 0,
             "floating": "auto_off",
             "geometry": {
-               "height": 432,
-               "width": 640,
+               "height": 496,
+               "width": 908,
                "x": 0,
                "y": 0
             },
@@ -62,15 +62,15 @@
             "floating": "auto_off",
             "geometry": {
                "height": 1026,
-               "width": 758,
+               "width": 908,
                "x": 14,
                "y": 14
             },
-            "name": "Sublime Text 3",
+            "name": "Kate",
             "percent": 0.8225,
             "swallows": [
                {
-                  "class": "^Subl3"
+                  "class": "^kate"
                }
             ],
             "type": "con"
@@ -80,8 +80,8 @@
             "current_border_width": 0,
             "floating": "auto_off",
             "geometry": {
-               "height": 432,
-               "width": 640,
+               "height": 496,
+               "width": 908,
                "x": 0,
                "y": 0
             },
