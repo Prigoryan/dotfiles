@@ -4,6 +4,6 @@ wait=$((30 * 60))
 
 while true
 do
-	feh --bg-fill --randomize ~/walls/
+    feh --bg-fill --randomize ~/walls/
     sleep $wait
 done
