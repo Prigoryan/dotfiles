@@ -1,4 +1,5 @@
 {
+    "marks": ["new_window"],
 	"swallows": [
 		{
 			"class": "."
