@@ -227,12 +227,11 @@ for_window [class="java-lang-"] floating enable
 for_window [title="Desktop — Plasma"] move scratchpad, exec --no-startup-id ~/bin/kill-plasma-delayed.sh
 
 # Avoid tiling popups, dropdown windows from plasma
-for_window [class="plasmashell"] floating enable, border none, no_focus
+for_window [class="plasmashell"] floating enable, border none #, no_focus
 for_window [class="Plasma"] floating enable, border none
 for_window [class="krunner"] floating enable, border none
 for_window [class="Kmix"] floating enable, border none
 for_window [class="Klipper"] floating enable, border none
-for_window [class="Plasmoidviewer"] floating enable, border none
 
 
 # >>> Window Rules <<<
@@ -245,6 +244,8 @@ for_window [window_role="Preferences"] floating enable, border none
 for_window [window_role="About"] floating enable, border none
 for_window [window_type="dialog"] floating enable, border none
 for_window [window_type="menu"] floating enable, border none
+for_window [class="Plasmoidviewer"] floating enable, border none
+for_window [class="(?i)*nextcloud*"] floating disable
 
 for_window [title="Preferences"] floating enable
 for_window [title="Create or select new Steam library folder"] floating enable
