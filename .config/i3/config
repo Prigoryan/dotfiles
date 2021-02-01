@@ -189,8 +189,8 @@ mode "resize" {
 
 focus_follows_mouse no
 
-bindsym $mod+Tab move scratchpad
-bindsym $mod+ISO_Next_Group scratchpad show
+bindsym $mod+ISO_Next_Group move scratchpad
+bindsym $mod+Tab scratchpad show
 bindsym $mod+grave sticky toggle
 
 for_window [class=".*"] border none # pixel 1
@@ -251,6 +251,7 @@ for_window [title="Preferences"] floating enable
 for_window [title="Create or select new Steam library folder"] floating enable
 for_window [title="Friends List"] floating enable
 for_window [class="Meld"] floating enable
+for_window [class="ksysguard"] floating enable
 for_window [instance="Dialog"] floating enable
 
 for_window [class="plasmashell" window_type="notification"] no_focus
