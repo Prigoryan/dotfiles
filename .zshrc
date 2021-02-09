@@ -80,7 +80,7 @@ eval $(thefuck --alias)
 source /usr/share/nvm/init-nvm.sh
 
 alias mon='watch -n 1 "gpustat ; sensors | grep -P \"(^temp|^fan|^T)\""'
-alias y=yay
+alias y=paru
 alias rn=perl-rename
 alias pacdiff='sudo sh -c "DIFFPROG=\"meld\" pacdiff"'
 alias f=fuck
