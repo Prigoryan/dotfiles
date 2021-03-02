@@ -87,3 +87,5 @@ alias f=fuck
 
 export WORDCHARS='-~'
 bindkey '^H' backward-kill-word
+
+export PATH="$HOME/.poetry/bin:$PATH"
