@@ -89,3 +89,6 @@ export WORDCHARS='-~'
 bindkey '^H' backward-kill-word
 
 export PATH="$HOME/.poetry/bin:$PATH"
+
+# Added by serverless binary installer
+export PATH="$HOME/.serverless/bin:$PATH"
