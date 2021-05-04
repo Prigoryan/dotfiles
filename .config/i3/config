@@ -250,6 +250,7 @@ for_window [class="(?i)*nextcloud*"] floating disable
 for_window [title="Preferences"] floating enable
 for_window [title="Create or select new Steam library folder"] floating enable
 for_window [title="Friends List"] floating enable
+for_window [title="Steam - News"] floating enable
 for_window [class="Meld"] floating enable
 for_window [class="ksysguard"] floating enable
 for_window [instance="Dialog"] floating enable
