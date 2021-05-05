@@ -260,5 +260,6 @@ for_window [class="plasmashell" window_type="notification"] no_focus
 exec --no-startup-id picom --experimental-backends &> picom.log &
 exec --no-startup-id pulseeffects --gapplication-service &
 exec --no-startup-id qbittorrent &
+exec --no-startup-id eval "$(ssh-agent -s)" &
 exec --no-startup-id sleep 2 && bash -c 'ids=($(xdotool search --name zsh)); xdotool key --window ${ids[-1]} Escape' &
 # exec --no-startup-id python ~/bin/i3-swallow.py
