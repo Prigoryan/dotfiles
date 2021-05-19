@@ -2,7 +2,8 @@
     "marks": ["new_window"],
 	"swallows": [
 		{
-			"class": "."
+			"window_role": "^(?!.*(pdater|tartup)).*$",
+			"title": "^(?!.*(pdater|tartup)).*$"
 		}
 	]
 }
