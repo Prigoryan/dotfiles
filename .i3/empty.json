@@ -3,7 +3,7 @@
 	"swallows": [
 		{
 			"window_role": "^(?!.*(pdater|tartup)).*$",
-			"title": "^(?!.*(pdater|tartup)).*$"
+			"title": "^(?!.*(pdater|tartup|win0)).*$"
 		}
 	]
 }
