@@ -79,7 +79,7 @@ export EDITOR=nano
 eval $(thefuck --alias)
 source /usr/share/nvm/init-nvm.sh
 
-alias mon='watch -n 1 "gpustat ; sensors | grep -P \"(^temp|^fan|^T)\""'
+alias mon='watch -n 0.1 "nvidia-smi | grep -P \".*%.*C.*W.*%\" ; sensors | grep -P \"(^temp|^fan|^T)\""'
 alias y=paru
 alias rn=perl-rename
 alias pacdiff='sudo sh -c "DIFFPROG=\"meld\" pacdiff"'
