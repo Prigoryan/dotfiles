@@ -115,3 +115,7 @@ load-nvmrc() {
 }
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
+
+if [ -f /etc/bash.command-not-found ]; then
+        . /etc/bash.command-not-found
+fi
