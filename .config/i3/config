@@ -248,6 +248,7 @@ for_window [class="Plasmoidviewer"] floating enable, border none
 for_window [class="(?i)*nextcloud*"] floating disable
 
 for_window [title="Preferences"] floating enable
+for_window [class="Yad" title="SteamTinkerLaunch"] floating enable, resize set 100 px 100 px
 for_window [title="Create or select new Steam library folder"] floating enable
 for_window [title="Friends List"] floating enable
 for_window [title="Steam - News"] floating enable
