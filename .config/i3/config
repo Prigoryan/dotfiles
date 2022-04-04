@@ -258,6 +258,7 @@ for_window [class="kazam"] floating enable
 for_window [instance="Dialog"] floating enable
 
 for_window [class="plasmashell" window_type="notification"] no_focus
+for_window [class="kate"] no_focus
 
 exec --no-startup-id picom --experimental-backends &> picom.log &
 # exec --no-startup-id easyeffects --gapplication-service &
