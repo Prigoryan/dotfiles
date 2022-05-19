@@ -262,7 +262,7 @@ for_window [class="kate"] no_focus
 
 exec --no-startup-id /usr/lib/pam_kwallet_init
 exec --no-startup-id picom --experimental-backends &> picom.log &
-# exec --no-startup-id easyeffects --gapplication-service &
+exec --no-startup-id easyeffects --gapplication-service &
 exec --no-startup-id qbittorrent &
 exec --no-startup-id ~/bin/discord-audio-screenshare.sh
 exec --no-startup-id sleep 5 && bash -c 'ids=($(xdotool search --name zsh)); xdotool key --window ${ids[-1]} Escape' &
