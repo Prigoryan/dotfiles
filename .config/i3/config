@@ -54,7 +54,7 @@ bindsym $mod+Shift+q kill
 
 # fuck this shit
 # you know how long it took me to debug?
-bindsym $mod+d exec "rofi -modi run,drun,window -show drun -font 'mono 12' -drun-match-fields name -run-command 'i3-msg \\"mark anchor; append_layout .i3/empty.json; [con_mark=\\"new_window\\"] focus; move window to mark anchor; unmark anchor; unmark new_window; exec {cmd}\\"'"
+bindsym $mod+d exec rofi -show drun
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
