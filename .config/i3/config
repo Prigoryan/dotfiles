@@ -265,5 +265,5 @@ exec --no-startup-id picom --experimental-backends &> picom.log &
 exec --no-startup-id easyeffects --gapplication-service &
 exec --no-startup-id qbittorrent &
 exec --no-startup-id ~/bin/discord-audio-screenshare.sh
-exec --no-startup-id sleep 1 && bash -c 'ids=($(xdotool search --classname htopper)); xdotool key --window ${ids[-1]} Escape' &
+exec --no-startup-id sleep 2 && bash -c 'ids=($(xdotool search --classname htopper)); xdotool key --window ${ids[-1]} Escape' &
 # exec --no-startup-id python ~/bin/i3-swallow.py
