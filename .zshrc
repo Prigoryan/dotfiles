@@ -74,7 +74,7 @@ i3prop() {
 
 
 unsetopt HIST_VERIFY
-export EDITOR=nano
+export EDITOR=micro
 
 eval $(thefuck --alias)
 source /usr/share/nvm/init-nvm.sh
