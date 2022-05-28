@@ -83,6 +83,7 @@ alias mon='watch --color -n 0.1 "nvidia-smi | grep -P \".*%.*C.*W.*%\" ; sensors
 alias y=paru
 alias rn=perl-rename
 alias pacdiff='sudo sh -c "DIFFPROG=\"meld\" pacdiff"'
+alias kshutdown='qdbus org.kde.Shutdown /Shutdown logoutAndShutdown'
 alias f=fuck
 
 export WORDCHARS='-~'
