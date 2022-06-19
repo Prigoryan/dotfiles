@@ -84,6 +84,7 @@ alias y=paru
 alias rn=perl-rename
 alias pacdiff='sudo sh -c "DIFFPROG=\"meld\" pacdiff"'
 alias kshutdown='qdbus org.kde.Shutdown /Shutdown logoutAndShutdown'
+alias kreboot='qdbus org.kde.Shutdown /Shutdown logoutAndReboot'
 alias plasmarestart='kquitapp5 plasmashell || killall plasmashell && kstart5 plasmashell &> /dev/null'
 alias f=fuck
 
