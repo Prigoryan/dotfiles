@@ -54,7 +54,7 @@ bindsym $mod+Shift+q kill
 
 # fuck this shit
 # you know how long it took me to debug?
-bindsym $mod+d exec rofi -show drun
+bindsym $mod+d exec rofi --config .config/rofi/config.rasi -show drun
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
