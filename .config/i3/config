@@ -193,7 +193,7 @@ bindsym $mod+ISO_Next_Group move scratchpad
 bindsym $mod+Tab scratchpad show
 bindsym $mod+grave sticky toggle
 
-for_window [class=".*"] border none # pixel 1
+for_window [class=".*"] border none
 gaps inner 20
 smart_borders on
 smart_gaps on
@@ -227,7 +227,7 @@ for_window [class="java-lang-"] floating enable
 for_window [title="Desktop — Plasma"] move scratchpad, exec --no-startup-id ~/bin/kill-plasma-delayed.sh
 
 # Avoid tiling popups, dropdown windows from plasma
-for_window [class="plasmashell"] floating enable, border none #, no_focus
+for_window [class="plasmashell"] floating enable, border none
 for_window [class="Plasma"] floating enable, border none
 for_window [class="krunner"] floating enable, border none
 for_window [class="Kmix"] floating enable, border none
@@ -256,9 +256,9 @@ for_window [class="Meld"] floating enable
 for_window [class="ksysguard"] floating enable
 for_window [class="kazam"] floating enable
 for_window [instance="Dialog"] floating enable
-
-for_window [class="plasmashell" window_type="notification"] no_focus
-for_window [class="kate"] no_focus
+#
+# for_window [class="plasmashell" window_type="notification"] no_focus
+# for_window [class="kate"] no_focus
 
 exec --no-startup-id /usr/lib/pam_kwallet_init
 exec --no-startup-id picom --experimental-backends &> picom.log &
