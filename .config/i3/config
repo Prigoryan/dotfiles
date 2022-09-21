@@ -208,7 +208,7 @@ exec --no-startup-id ~/bin/slideshow.sh &
 
 # for_window [class="^jetbrains-.+"][window_type=dialog] focus
 
-exec --no-startup-id i3-msg 'workspace $ws1; append_layout ~/.i3/workspace-1.json; exec konsole -name empty; exec konsole -name monitor -e zsh -ic "mon && zsh -i"; exec konsole -name htopper -e zsh -ic "htop && zsh -i"'
+exec --no-startup-id i3-msg 'workspace $ws1; append_layout ~/.i3/workspace-1.json; exec konsole -name empty; exec konsole -name btopper -e zsh -ic "btop && zsh -i"'
 exec --no-startup-id i3-msg 'workspace $ws2; append_layout ~/.i3/workspace-2.json; exec google-chrome-stable --profile-directory=Default; workspace $ws1; exec kate'
 bindsym $mod+Control+w exec --no-startup-id ~/bin/worksetup.sh $ws2 $ws3 $ws9
 
@@ -265,5 +265,5 @@ exec --no-startup-id picom --experimental-backends &> picom.log &
 exec --no-startup-id easyeffects --gapplication-service &
 exec --no-startup-id qbittorrent &
 # exec --no-startup-id ~/bin/discord-audio-screenshare.sh
-exec --no-startup-id sleep 2 && bash -c 'ids=($(xdotool search --classname htopper)); xdotool key --window ${ids[-1]} Escape' &
+# exec --no-startup-id sleep 2 && bash -c 'ids=($(xdotool search --classname htopper)); xdotool key --window ${ids[-1]} Escape' &
 # exec --no-startup-id python ~/bin/i3-swallow.py
