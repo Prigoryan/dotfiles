@@ -82,6 +82,7 @@ cool-cp() {
 unsetopt HIST_VERIFY
 export EDITOR=micro
 export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
 
 eval $(thefuck --alias)
 source /usr/share/nvm/init-nvm.sh
