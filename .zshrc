@@ -90,7 +90,7 @@ source /usr/share/nvm/init-nvm.sh
 alias mon='watch --color -n 0.1 "nvidia-smi | grep -P \".*%.*C.*W.*%\" ; sensors | grep -P \"(^temp|^fan|^T)\""'
 alias y=paru
 alias rn=perl-rename
-alias cp=cool-cp
+# alias cp=cool-cp
 alias pacdiff='sudo sh -c "DIFFPROG=\"meld\" pacdiff"'
 alias kshutdown='qdbus org.kde.Shutdown /Shutdown logoutAndShutdown'
 alias kreboot='qdbus org.kde.Shutdown /Shutdown logoutAndReboot'
