@@ -23,11 +23,17 @@ bindkey -e
 # The following lines were added by compinstall
 zstyle :compinstall filename "$HOME/.zshrc"
 zstyle ':completion:*' rehash true
+zstyle ':completion:*' menu yes select search
+
 
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
+source /usr/share/fzf/key-bindings.zsh
+source /usr/share/fzf/completion.zsh
+# source /usr/share/fzf-tab-completion/zsh/fzf-zsh-completion.sh
+# bindkey '^I' fzf_completion
 
 i3prop() {
   # Source: https://faq.i3wm.org/question/2172/how-do-i-find-the-criteria-for-use-with-i3-config-commands-like-for_window-eg-to-force-splashscreens-and-dialogs-to-show-in-floating-mode.1.html
@@ -103,7 +109,6 @@ bindkey '^H' backward-kill-word
 export PATH="$HOME/.serverless/bin:$PATH"
 # source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # place this after nvm initialization!
-
 autoload -U add-zsh-hook
 load-nvmrc() {
   local node_version="$(nvm version)"
