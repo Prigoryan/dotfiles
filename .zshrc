@@ -101,6 +101,7 @@ alias kreboot='qdbus org.kde.Shutdown /Shutdown logoutAndReboot'
 alias plasmarestart='kquitapp5 plasmashell || killall plasmashell && kstart5 plasmashell &> /dev/null'
 alias f=fuck
 alias b=btop
+alias l='ls -lah --group-directories-first'
 alias rsync-achxzP='rsync -achxzP --info=progress2'
 
 export WORDCHARS='-~'
