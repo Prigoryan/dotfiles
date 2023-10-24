@@ -106,7 +106,9 @@ alias rsync-achxzP='rsync -achxzP --info=progress2'
 
 export WORDCHARS='-~'
 bindkey '^H' backward-kill-word
-
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS=@im=fcitx
 # Added by serverless binary installer
 export PATH="$HOME/.serverless/bin:$PATH"
 # source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
