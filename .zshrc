@@ -87,6 +87,7 @@ cool-cp() {
 
 unsetopt HIST_VERIFY
 export EDITOR=micro
+export SYSTEMD_EDITOR==micro
 
 eval $(thefuck --alias)
 source /usr/share/nvm/init-nvm.sh
