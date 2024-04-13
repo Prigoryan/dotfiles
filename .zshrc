@@ -110,6 +110,7 @@ bindkey '^H' backward-kill-word
 # export GTK_IM_MODULE=fcitx
 # export QT_IM_MODULE=fcitx
 # export XMODIFIERS=@im=fcitx
+export ANI_CLI_PLAYER=haruna
 # Added by serverless binary installer
 export PATH="$HOME/.serverless/bin:$PATH"
 # source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
