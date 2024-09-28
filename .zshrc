@@ -88,6 +88,7 @@ cool-cp() {
 unsetopt HIST_VERIFY
 export EDITOR=micro
 export SYSTEMD_EDITOR==micro
+export SSH_AUTH_SOCK=$XDG_RUNTIME_DIR/ssh-agent.socket
 
 eval $(thefuck --alias)
 source /usr/share/nvm/init-nvm.sh
