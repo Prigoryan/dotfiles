@@ -106,7 +106,7 @@ alias b=btop
 alias l='ls -lah --group-directories-first'
 alias rsync-achxzP='rsync -achxzP --info=progress2'
 
-export WORDCHARS='-~'
+export WORDCHARS='~'
 bindkey '^H' backward-kill-word
 # export GTK_IM_MODULE=fcitx
 # export QT_IM_MODULE=fcitx
