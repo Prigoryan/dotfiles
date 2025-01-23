@@ -140,3 +140,6 @@ load-nvmrc
 if [ -f /etc/bash.command-not-found ]; then
         . /etc/bash.command-not-found
 fi
+
+# Created by `pipx` on 2025-01-23 18:07:52
+export PATH="$PATH:/home/igorbunov/.local/bin"
