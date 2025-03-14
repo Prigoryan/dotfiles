@@ -5,7 +5,9 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-plugins=(docker docker-compose systemd zsh-autosuggestions zsh-completions)
+zstyle ':omz:update' mode reminder
+
+plugins=(docker docker-compose systemd zsh-autosuggestions zsh-completions zsh-syntax-highlighting)
 ZSH_AUTOSUGGEST_STRATEGY=(match_prev_cmd completion)
 export ZSH=/usr/share/oh-my-zsh
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
