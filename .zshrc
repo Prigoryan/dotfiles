@@ -102,7 +102,7 @@ alias rn=perl-rename
 alias pacdiff='sudo sh -c "DIFFPROG=\"meld\" pacdiff"'
 alias kshutdown='qdbus org.kde.Shutdown /Shutdown logoutAndShutdown'
 alias kreboot='qdbus org.kde.Shutdown /Shutdown logoutAndReboot'
-alias plasmarestart='kquitapp5 plasmashell || killall plasmashell && kstart5 plasmashell &> /dev/null'
+alias plasmarestart='kquitapp6 plasmashell || killall plasmashell && kstart plasmashell'
 alias f=fuck
 alias b=btop
 alias l='ls -lah --group-directories-first'
