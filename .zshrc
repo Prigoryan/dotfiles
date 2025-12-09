@@ -108,6 +108,9 @@ alias b=btop
 alias l='ls -lah --group-directories-first'
 alias rsync-achxzP='rsync -achxzP --info=progress2'
 
+alias m='easyeffects -l "mono"'
+alias s='easyeffects -l "stereo"'
+
 export WORDCHARS='_~'
 bindkey '^H' backward-kill-word
 # export GTK_IM_MODULE=fcitx
