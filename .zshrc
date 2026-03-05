@@ -107,6 +107,8 @@ alias f=fuck
 alias b=btop
 alias l='ls -lah --group-directories-first'
 alias rsync-achxzP='rsync -achxzP --info=progress2'
+alias pyright=basedpyright
+alias pyright-langserver=basedpyright-langserver
 
 alias m='easyeffects -l "mono"'
 alias s='easyeffects -l "stereo"'
