@@ -88,9 +88,6 @@ cool-cp() {
 
 
 unsetopt HIST_VERIFY
-export EDITOR=micro
-export SYSTEMD_EDITOR==micro
-export SSH_AUTH_SOCK=$XDG_RUNTIME_DIR/ssh-agent.socket
 
 eval $(thefuck --alias)
 source /usr/share/nvm/init-nvm.sh
@@ -116,7 +113,6 @@ bindkey '^H' backward-kill-word
 # export GTK_IM_MODULE=fcitx
 # export QT_IM_MODULE=fcitx
 # export XMODIFIERS=@im=fcitx
-export ANI_CLI_PLAYER=haruna
 # Added by serverless binary installer
 export PATH="$HOME/.serverless/bin:$PATH"
 # source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
@@ -147,4 +143,8 @@ if [ -f /etc/bash.command-not-found ]; then
 fi
 
 # Created by `pipx` on 2025-01-23 18:07:52
-export PATH="$PATH:/home/igorbunov/.local/bin"
+# export PATH="$PATH:/home/igorbunov/.local/bin"
+# export EDITOR=micro
+# export SYSTEMD_EDITOR=micro
+# export SSH_AUTH_SOCK=$XDG_RUNTIME_DIR/ssh-agent.socket
+# export ANI_CLI_PLAYER=haruna
