@@ -138,6 +138,8 @@ load-nvmrc() {
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
 
+eval "$(zoxide init zsh)"
+
 if [ -f /etc/bash.command-not-found ]; then
         . /etc/bash.command-not-found
 fi
