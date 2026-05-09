@@ -140,6 +140,14 @@ load-nvmrc
 
 eval "$(zoxide init zsh)"
 
+function yz() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+	command yazi "$@" --cwd-file="$tmp"
+	IFS= read -r -d '' cwd < "$tmp"
+	[ "$cwd" != "$PWD" ] && [ -d "$cwd" ] && builtin cd -- "$cwd"
+	command rm -f -- "$tmp"
+}
+
 if [ -f /etc/bash.command-not-found ]; then
         . /etc/bash.command-not-found
 fi
