@@ -1,10 +1,7 @@
 if status is-interactive
     # Commands to run in interactive sessions can go here
 
-    # fzf --fish | source
-    source ~/.config/fish/fzf.sh
-
-    # fzf_key_bindings
+    fzf --fish | source
 
     set -gx fifc_editor micro
     set -gx fifc_fd_opts --hidden
