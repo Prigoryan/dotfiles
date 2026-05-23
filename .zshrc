@@ -26,6 +26,7 @@ bindkey -e
 zstyle :compinstall filename "$HOME/.zshrc"
 zstyle ':completion:*' rehash true
 zstyle ':completion:*' menu yes select search
+zstyle ':completion:*:functions:*' pacman-databases /usr/lib/pacman
 
 
 autoload -Uz compinit
