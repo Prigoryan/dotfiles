@@ -1,9 +1,0 @@
-{
-    "marks": ["new_window"],
-	"swallows": [
-		{
-			"window_role": "^(?!.*(pdater|tartup|etworkSettings)).*$",
-			"title": "^(?!.*(pdater|tartup|win0)).*$"
-		}
-	]
-}

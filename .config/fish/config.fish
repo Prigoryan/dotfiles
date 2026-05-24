@@ -9,4 +9,5 @@ if status is-interactive
     set -gx fish_greeting
     
     bind ctrl-h backward-kill-path-component
+    bind ctrl-u kill-whole-line
 end
