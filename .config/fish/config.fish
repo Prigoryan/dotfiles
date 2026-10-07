@@ -10,4 +10,7 @@ if status is-interactive
     
     bind ctrl-h backward-kill-word
     bind ctrl-u kill-whole-line
+
+    bind ctrl-right forward-path-component
+    bind ctrl-left backward-path-component
 end
